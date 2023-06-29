@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =====================
+       Back-ground    ==
+======================== */
+body {
+    background-image: url("/CSS/Pix/egypt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+/* =====================
+         Nav-Bar      ==
+======================== */
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    padding: 40px 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.logo {
+    width: 20%;
+    padding-left: 80px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.nav__links {
+    list-style: none;
+}
+
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 22px;
+}
+
+
+.nav__links li a {
+    transition: all .5s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, .5);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    float: right;
+}
+
+
+button:hover {
+    background-color: rgba(0, 136, 169, .8);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.dropdown li a {
+    display: block;
+    color: white;
+}
+
+
+ul.dropdown {
+    width: 185px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* =====================
+        Animation     ==
+======================== */
+
+.flying-dreams{
+    margin: 5px 5px;
+    padding: 10px;    
+}
+
+.dream1 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 1050px;
+    animation-name: fadeInDownBig;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+}
+
+
+.dream2 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-left: 1000px;
+    animation-name: fadeInDownBig;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in-out; 
+}
+
+
+.dream3 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;    
+    font-size: 46px;
+    margin-left: 900px;
+    animation-name: fadeInDownBig;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
+}
+
+
+.dream4 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 800px;
+    animation-name: fadeInDownBig;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-out;
+}
+
+
+.dream5 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-left: 700px;
+    animation-name: fadeInDownBig;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-out;
+}
+
+
+.dream6 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 46px;
+    margin-left: 600px;
+    animation-name: fadeInDownBig;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: ease-out;
+}
+
+
+.dream7 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 46px;
+    margin-left: 900px;
+    animation-name: fadeInDownBig;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.dream8 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 46px;
+    margin-left: 700px;
+    animation-name: fadeInDownBig;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.dream9 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 46px;
+    margin-left: 600px;
+    animation-name: fadeInDownBig;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.dream10 {
+    padding: 0;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 46px;
+    margin-left: 600px;
+    animation-name: fadeInDownBig;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+h2{
+    color: goldenrod;
+    background-color: transparent;
+    padding-left: 80px;
+    padding-top: 0;
+    font-size: 80px;
+    animation-name: bounce;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+h2:hover{
+    color: darkred;
+    font-size: 130px;
+    transition-duration: 3s;
+}
+
+
+/* =====================
+     Training Cards   ==
+======================== */
+.training-cards-1{
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+
+.training-cards-1 a {
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    order: four; 
+}
+
+.training-cards-2 {
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    padding: 0 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+
+.training-cards-2 a {
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    order: four;
+}
+.logo-courses{
+    width: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.logo-courses:hover{
+    width: 100%;
+    transition-duration: 3s;
+}
+
+
+.one,
+.five
+{
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+
+
+.two,
+.six,
+.seven
+{
+    animation-name: bounce;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}  
+
+.three, .logo-courses{
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+
+.four,
+.eight
+{
+    animation-name: bounce;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+/* =====================
+     Animation Codes  ==
+======================== */
+@keyframes fadeInDownBig {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@keyframes bounce {
+
+    0% {
+        animation-timing-function: cubic-bezier(.215);
+        transform: translateZ(0);
+    }
+
+    50% {
+        animation-timing-function: cubic-bezier(.755);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    100% {
+        transform: translate3d(0);
+    }
+}
